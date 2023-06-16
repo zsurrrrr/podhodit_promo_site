@@ -20,7 +20,7 @@ $( document ).ready(function() {
       //   }
       });
 
-
+// выдвигающееся меню
 
         $( ".logo" ).click(function(){
           $( ".logos_square_big" ).removeClass( "animation_out" );
@@ -44,17 +44,24 @@ $( document ).ready(function() {
       }
     );
 
-//     $( ".logos_square" ).hover(function() {
-//   }, function() {
-//     $( ".logos_square_big" ).removeClass( "animation_in" );
-//     $( ".logos_square_big" ).addClass( "animation_out" );
-//     $( ".animation_out" ).css( "animation-play-state", 'running' );
-//   }
-// );
+// инвертирующиеся фигуры
 
+        $( ".circle" ).hover(function() {
+      }, function() {
+          $( this ).css( "background-image", url('../img/circle_1.svg') );
+          $( ".polygon" ).css( "background-image", url('../img/polygon_1.svg') );
+          $( ".square" ).css( "background-image", url('../img/square_1.svg') );
+          $( ".index_screen_1" ).css( "background-color", '#ffffff' );
+      }
+    );
 
 
 
 
 
 } );
+
+
+
+
+
