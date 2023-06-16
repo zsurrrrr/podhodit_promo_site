@@ -1,0 +1,207 @@
+/* .index_background {
+  background-color: #5465FF;
+  width: 100%;
+  height: 100%;
+} */
+
+html{
+  cursor: url('../img/cursor_1.svg'),auto;
+
+}
+
+a:hover, circle:hover, polygon:hover, square:hover {
+cursor: url("../img/cursor_2.svg"), pointer;
+}
+
+
+body {
+  background-color: #5465FF;
+}
+.index_screen_1 {
+  background-color: #5465FF;
+  position: relative;
+  height: 100vh;
+  /* width: 150vh; */
+  width: 210vh;
+  margin: 0 auto;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  /* background-image: url('../img/menu.png'); */
+  overflow: hidden;
+}
+
+.logo {
+  height: 6.4vh;
+  width: 27vh;
+  top: 4vh;
+  left: 6vh;
+  position: absolute;
+}
+
+.logo_0 {
+  height: 34.5vh;
+  width: 27vh;
+  top: -30vh;
+  position: absolute;
+}
+
+.logo_00 {
+  height: 34.5vh;
+  width: 27vh;
+  top: 10vh;
+  position: absolute;
+}
+
+.logos_square {
+  height: 6.4vh;
+  width: 27vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logos_square.svg');
+}
+
+.logos_square_0 {
+  height: 6.4vh;
+  width: 27vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logos_square.svg');
+  display: none;
+}
+
+.logos_square_big {
+  height: 34.5vh;
+  width: 27vh;
+  top: -30vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logos_square_big.svg');
+}
+
+@keyframes menu {
+  0% {top: -30vh;}
+  100% {top: 0vh;}
+}
+
+@keyframes menu_2 {
+  0% {top: 0vh;}
+  100% {top: -30vh;}
+}
+
+.animation_in {
+  animation-play-state: paused;
+  animation-duration: 0.3s;
+  animation-name: menu;
+  animation-fill-mode: forwards;
+}
+
+.animation_out {
+  animation-play-state: paused;
+  animation-duration: 0.3s;
+  animation-name: menu_2;
+  animation-fill-mode: forwards;
+}
+
+.logos_square_big_blue {
+  height: 34.5vh;
+  width: 27vh;
+  top: -30vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/logos_square_big_blue.svg');
+}
+
+
+.test {
+  height: 3.5vh;
+  width: 43vh;
+  top: 15vh;
+  left: 3vh;
+  position: absolute;
+  color: #5465FF;
+}
+
+
+
+.circle {
+  height: 10vh;
+  width: 15vh;
+  top: 45vh;
+  left: 14.3vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/circle.svg');
+}
+
+.circle_hole {
+  height: 17vh;
+  width: 40vh;
+  top: 79vh;
+  left: 6vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/circle_hole.svg');
+}
+
+.polygon {
+  height: 8.8vh;
+  width: 15vh;
+  top: 46.5vh;
+  /* left: 72.2vh; */
+  left: 99.26vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/polygon.svg');
+}
+
+.polygon_hole {
+  height: 17vh;
+  width: 28vh;
+  top: 79vh;
+  /* left: 64vh; */
+  left: 91vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/polygon_hole.svg');
+}
+
+.square {
+  height: 9.1vh;
+  width: 10vh;
+  top: 46vh;
+  left: 186vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/square.svg');
+}
+
+.square_hole {
+  height: 17vh;
+  width: 29vh;
+  top: 79vh;
+  left: 177.3vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/square_hole.svg');
+}
+
+.text1 {
+  height: 3.5vh;
+  width: 70vh;
+  top: 5vh;
+  /* left: 80vh; */
+  left: 135vh;
+  font-size: 3.6vh;
+  position: absolute;
+  color: #ffffff;
+}
