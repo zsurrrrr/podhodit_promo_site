@@ -1,0 +1,95 @@
+.scroll-bar_1 {
+  position: relative;
+  height: 40vw;
+  width: 35vw;
+  top: -0.4svw;
+  left: 10vw;
+  overflow: auto;
+}
+.scroll_1 {
+  position: absolute;
+    height: 165.5vw;
+    width: 33vw;
+    left: 0;
+    top: 0vw;
+  overflow: auto;
+  background-image: url('../img/scroll.svg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+form {
+  position: absolute;
+  top: 7vw;
+  left: 54vw;
+}
+h3, p, label, button {
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+h3,
+p,
+select,
+form > label,
+form > div {
+  width: 36.80vw;
+  display: block;
+  margin: 1.3vw auto;
+  font-family:  'FeatureMono-Regular';
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+select {
+  height: 3.7vw;
+  border: 0.08vw solid #ddd;
+  font-size: 1.36vw;
+  line-height: 3.68vw;
+  padding: 0 1.2vw;
+  appearance: none;
+  font-family:  'FeatureMono-Regular';
+}
+input + p {
+  text-align: center;
+  font-size: 1.12vw;
+  color: #999;
+}
+form > div > * {
+  width: auto;
+  margin-top: 1vw;
+}
+
+form > label > span {
+  font-size: 1.12vw;
+  color: #999;
+  display: block;
+  margin-left: 1.52vw;
+}
+button {
+  font-size: 2vw;
+  border: none;
+  color: #ffffff;
+  background-color: #5465FF;
+  border-radius: 30px;
+  padding: 0.6vw 2.5vw;
+  font-family:  'FeatureMono-Regular';
+  transition: 500ms:
+}
+
+button:hover {
+	background: rgba(0,0,0,0);
+	color: #5465FF;
+	box-shadow: inset 0 0 0 3px #5465FF;
+}
+
+.text_f {
+    font-size: 3vw;
+    font-family: FeatureMono-Bold;
+}
