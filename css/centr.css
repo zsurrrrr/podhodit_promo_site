@@ -1,0 +1,37 @@
+.centr {
+  background-color: #5465FF;
+  position: relative;
+  height: 230vh;
+  width: 210vh;
+  margin: 0 auto;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../img/centr.png');
+  overflow: hidden;
+}
+
+/* фотки */
+
+.pikcha {
+  display: flex;
+  width: 670px;
+  border-radius: 640px;
+  position: relative;
+  padding: 3px 688px 5px 53px;
+  overflow: hidden;
+  height: calc(90vh - 185px);
+}
+
+
+
+/* текст */
+
+.text_big{
+  height: 15vh;
+  width: 200vh;
+  display: flex;
+  font-size: 70px;
+  font-family: 'FeatureMono-Bold';
+  padding: 115px 0px 0px 45px;
+  color: #ffffff;
+}

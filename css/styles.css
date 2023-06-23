@@ -1,0 +1,47 @@
+@import "main_menu.css";
+@import "affiche.css";
+@import "merch.css";
+@import "centr.css";
+@import "kartinki.css";
+@import "reset.css";
+@import "404.css";
+@import "all_files.css";
+
+@font-face {
+    font-family: 'FeatureMono-Regular';
+    src: url('../fonts/FeatureMono-Regular.eot');
+    src: url('../fonts/FeatureMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FeatureMono-Regular.ttf') format('ttf'),
+        url('../fonts/FeatureMono-Regular.woff2') format('woff2'),
+        url('../fonts/FeatureMono-Regular.woff') format('woff'),
+        url('../fonts/FeatureMono-Regular.svg#FeatureMono-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FeatureMono-Light';
+    src: url('../fonts/FeatureMono-Light.eot');
+    src: url('../fonts/FeatureMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FeatureMono-Light.woff2') format('woff2'),
+        url('../fonts/FeatureMono-Light.woff') format('woff'),
+        url('../fonts/FeatureMono-Light.ttf') format('ttf'),
+        url('../fonts/FeatureMono-Light.svg#FeatureMono-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FeatureMono-Bold';
+    src: url('../fonts/FeatureMono-Bold.eot');
+    src: url('../fonts/FeatureMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FeatureMono-Bold.woff2') format('woff2'),
+        url('../fonts/FeatureMono-Bold.ttf') format('ttf'),
+        url('../fonts/FeatureMono-Bold.woff') format('woff'),
+        url('../fonts/FeatureMono-Bold.svg#FeatureMono-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

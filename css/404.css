@@ -1,0 +1,67 @@
+.t_1 {
+    height: 10vh;
+    width: 100vh;
+    top: 9vh;
+    left: 10vh;
+    position: absolute;
+    font-size: 11vw;
+    color: aliceblue;
+    font-family: FeatureMono-Bold;
+}
+
+.t_2 {
+    height: 10vh;
+    width: 150vh;
+    top: 43vh;
+    left: 10vh;
+    position: absolute;
+    font-size: 5vw;
+    color: aliceblue;
+    font-family: FeatureMono-Bold;
+}
+
+.t_3 {
+    height: 2vh;
+    width: 60vh;
+    top: 85vh;
+    left: 100vh;
+    position: absolute;
+    font-size: 2vw;
+    color: aliceblue;
+    font-family: FeatureMono-Regular;
+}
+
+.polygon_1 {
+    height: 8.8vh;
+    width: 15vh;
+    top: 46.5vh;
+    left: 178.21vh;
+    position: absolute;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/polygon.svg');
+  }
+  
+.polygon_hole_1 {
+    height: 17vh;
+    width: 28vh;
+    top: 79vh;
+    left: 170vh;
+    position: absolute;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/polygon_hole.svg');
+  }
+
+.strelochk {
+    height: 14vh;
+    width: 52vh;
+    top: 67vh;
+    left: 130vh;
+    position: absolute;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/strelochk.svg');
+
+}
+  
